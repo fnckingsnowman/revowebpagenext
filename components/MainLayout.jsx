@@ -1,6 +1,23 @@
 import React from 'react'
 import MainHeader from './MainHeader'
 import MainFooter from './MainFooter'
+import Carousel from './MainVideoDisplay'
+import AboutUs from './AboutUs'
+
+/*
+import demo1 from './img/demovids/1.mp4'
+import demo2 from './img/demovids/2.mp4'
+import demo3 from './img/demovids/3.mp4'
+import demo4 from './img/demovids/4.mp4'
+*/
+//const VIDEOS = [demo1, demo2, demo3, demo4]
+
+const slides = [
+'/img/demovids/1.mp4',
+'/img/demovids/2.mp4',
+'/img/demovids/3.mp4',
+'/img/demovids/4.mp4'
+]
 
 const MainLayout = ({ children }) => {
   return (
@@ -31,9 +48,18 @@ const MainLayout = ({ children }) => {
         </div>
       </div>
 
-     
+      
 
-      <div className="container mx-auto py-10 flex place-content-center image-text-container">
+      <div className='container mx-auto py-10 place-content-center image-text-container'>
+        <div className='text-5xl text-center pb-5'>Customizable configurations for different applications</div>
+        <Carousel>
+          {slides.map((s) => (
+            <video key={s} src={s} autoPlay muted loop className="w-full h-auto" />
+          ))}
+        </Carousel>
+      </div>
+
+      <div className="container mx-auto py-10 pt-40 flex place-content-center image-text-container">
         <div className="w-full md:w-1/2">
           <img
             src="./img/open1.png"
@@ -86,7 +112,7 @@ const MainLayout = ({ children }) => {
       <div className="container mx-auto py-10 flex place-content-center image-text-container">
         <div className="w-full md:w-1/2 p-6 grid place-items-center">
           <p className="text-lg text-white">
-            <span className="text-3xl font-bold">Magtic Virtual-Idents</span> 36 Precision-Placed Magnets provide an
+            <span className="text-3xl font-bold">Magnetic Virtual-Idents</span> 36 Precision-Placed Magnets provide an
             incremental snap feel, creating a controlled Single Stepping mechanism for the Revolute.
           </p>
         </div>
@@ -98,6 +124,28 @@ const MainLayout = ({ children }) => {
           />
         </div>
       </div>
+       
+      <div className="container mx-auto py-40 flex flex-col items-center">
+    <div className="text-center mb-20 p-10">
+        <p className="text-lg text-white">
+            <span className="text-6xl font-bold">Revolute Development</span>
+            <br />
+            <div className='pt-5'>
+              <span className="text-lg">
+                <span className="text-3xl font-bold">The Revolute is still in the making;</span> this product will <span className="text-3xl font-bold">soon be available on CrowdSupply</span> as a crowdfunded project if you wish to purchase one.
+                <br /> 
+                <br /> 
+                The development of this project has been ongoing for two years since the Shanghai pandemics in 2022. Managing our personal lives and academics while developing such a unique product in our spare time has been challenging; Staying consistent and persistent with a single project is pretty fucking exhausting and monotonous at times. However, it is still our long term objective to try and create projects of our own with our own skills and creativity to share it with the rest of the community.
+            </span>
+            </div>
+            
+        </p>
+    </div>
+
+   <AboutUs />
+
+</div>
+
       <main>{children}</main>
       <MainFooter />
     </div>

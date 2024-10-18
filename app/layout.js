@@ -1,6 +1,8 @@
 import MainLayout from "@/components/MainLayout";
 import "./globals.css";
 
+
+
 export const metadata = {
   title: "webshit thing",
   description: "nextnextnextnext",

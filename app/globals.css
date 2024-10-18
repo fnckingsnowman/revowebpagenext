@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (orientation: portrait) {
+    .image-text-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+@font-face {
+  font-family: 'Prof Bens';
+  src: url('/fonts/ProfBens.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
