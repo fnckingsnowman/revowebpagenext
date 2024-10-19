@@ -39,12 +39,12 @@ const MainLayout = ({ children }) => {
           />
         </div>
         <div className="w-full md:w-1/2 p-6 grid place-items-center">
-          <p className="text-lg text-white">
+          <div className="text-lg text-white">
             The <span className="text-3xl font-bold">Revolute</span> is a{' '}
             <span className="text-3xl font-bold">Smart Dial/Scroll Wheel Device</span> that allows users to perform
             various actions through simple rotation, making it easier to manage complex tasks/software applications
             without constantly clicking back and forth.
-          </p>
+          </div>
         </div>
       </div>
 
@@ -127,7 +127,7 @@ const MainLayout = ({ children }) => {
        
       <div className="container mx-auto py-40 flex flex-col items-center">
     <div className="text-center mb-20 p-10">
-        <p className="text-lg text-white">
+        <div className="text-lg text-white">
             <span className="text-6xl font-bold">Revolute Development</span>
             <br />
             <div className='pt-5'>
@@ -139,7 +139,7 @@ const MainLayout = ({ children }) => {
             </span>
             </div>
             
-        </p>
+        </div>
     </div>
 
    <AboutUs />

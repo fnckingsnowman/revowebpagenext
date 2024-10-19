@@ -22,8 +22,21 @@ const AboutUs = () => {
               alt="Developer 1" 
               className="w-40 h-40 rounded-full mx-auto mb-4"
             />
-            <h3 className="text-xl font-semibold text-white">Tongtong Wang</h3>
-            <p className="text-gray-400">Short description about Developer 1 goes here.</p>
+            <h3 className="text-xl font-semibold text-white">
+                    Tongtong Wang 
+                    <span className="text-gray-400 text-sm ml-2">(basement gremlin) jesus/christ</span>
+            </h3>
+            <p className="text-gray-400">Founder of Tongtonginc, CEO, Lead electronics and firmware developer for Revolute, Lead designer, web backend developer, advertizing director, Apple OS software developer</p>
+            <ul className="list-disc list-inside text-gray-200 mt-4 space-y-2">
+              <li>'25 class highschooler studying at Shanghai United International School</li>
+              <li>Planning to major in Electrical and Computer Engineering in college in the United States</li>
+              <li>Crazy fucking fan of Apple.inc; certified Apple developer and owns a MacBookPro with 96GB of ram just to have everything open all the time without the computer slowing down</li>
+              <li>Proficient in C/C++, Python, Swift, JavaScript, and somewhat capable in other languages</li>
+              <li>Skilled in developing with Zephyr RTOS on nRF52 series SoCs</li>
+              <li>Experienced in networking, managing servers, and backend development</li>
+              <li>Highly skilled in KiCad circuit board design, Fusion 360 CAD software, and Blender animations</li>
+              <li>Skilled in 3D printing and designing mechanical parts</li>
+            </ul>
 
             {/* Icons for Developer 1 with tooltips */}
             <div className="flex justify-center mt-4 space-x-4">
@@ -51,8 +64,22 @@ const AboutUs = () => {
               alt="Developer 2" 
               className="w-40 h-40 rounded-full mx-auto mb-4"
             />
-            <h3 className="text-xl font-semibold text-white">T Zhong</h3>
-            <p className="text-gray-400">Short description about Developer 2 goes here.</p>
+            <h3 className="text-xl font-semibold text-white">
+                    T Zhong
+                    <span className="text-gray-400 text-sm ml-2">(alcoholic snowman) fuck/me</span>
+            </h3>
+            <p className="text-gray-400">Product/Project Manager, web Frontend developer, electronics and mechanical engineer, campaign manager/organizer, advertizing director, Windows software developer</p>
+            <ul className="list-disc list-inside text-gray-200 mt-4 space-y-2">
+              <li>'25 class highschooler studying at Montverde Shanghai Academy (Shanghai Future Technology Highschool)</li>
+              <li>Ex Student Athlete in golf turned engineering hobbyist</li>
+              <li>Planning to major in Electrical and Computer Engineering in college in the United States</li>
+              <li>Proficient in C/C++, JavaScript, React, Nextjs, Electron, and somewhat capable in other languages/frameworks</li>
+              <li>Skilled in KiCad circuit board design, Fusion 360 CAD software, and Solidworks CAD software</li>
+              <li>Skilled in 3D printing and designing mechanical parts</li>
+              <li>Studied and researched on ASIC and FPGA Chip Designing</li>
+              
+            </ul>
+
 
             {/* Icons for Developer 2 with tooltips */}
             <div className="flex justify-center mt-4 space-x-4">
