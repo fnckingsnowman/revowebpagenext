@@ -16,6 +16,8 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+TO RUN SERVER ON LAN GO TO PACKAGE.JSON AND CHANGE THE SCRIPTS 'next dev' TO 'next dev -H 0.0.0.0 -p 3000' AND WITH THE IP ON THIS COMPUTER YOU ADD :3000 AT THE END OF IT AND STICK IT IN YOUR BROWSER.
+
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
