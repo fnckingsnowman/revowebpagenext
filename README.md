@@ -1,3 +1,11 @@
+# To do list
+- add assigned color scheme
+- organize components
+- create the conic components/styles into hte css thing so that i can use it for the things in the website thing fuck
+- add dynamic resolution for loading and rendering shit
+- FIX VIDEO PLAYBACK ISSUE
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
