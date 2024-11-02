@@ -24,7 +24,7 @@ const MainLayout = ({ children }) => {
     <div>
       <MainHeader />
       <div className="max-h-fit-content min-h-screen grid place-items-center">
-        <video autoPlay loop muted className="w-3/4 h-3/4">
+        <video autoPlay loop muted playsInline className="w-3/4 h-3/4">
           <source src="./img/Revolute2.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -54,7 +54,7 @@ const MainLayout = ({ children }) => {
         <div className='text-5xl text-center pb-5'>Customizable configurations for different applications</div>
         <Carousel>
           {slides.map((s) => (
-            <video key={s} src={s} autoPlay muted loop className="w-full h-auto" />
+            <video key={s} src={s} autoPlay muted loop playsInline className="w-full h-auto" />
           ))}
         </Carousel>
       </div>
