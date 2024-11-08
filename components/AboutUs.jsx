@@ -1,5 +1,7 @@
+"use client";
 import React from 'react'
 import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from 'react-icons/fa'; // Import some icons
+import SuperEllipse from 'react-superellipse';
 
 const AboutUs = () => {
   return (
@@ -16,7 +18,7 @@ const AboutUs = () => {
       <div className="container mx-auto flex place-content-center image-text-container">
         {/* Developer 1 */}
         <div className='w-full md:w-2/3 p-6 grid place-items-center'>
-          <div className="bg-gray-800 p-6 rounded-lg">
+          <SuperEllipse p1={10} p2={32} className="bg-gray-800 p-6">
             <img 
               src="/img/aboutuspics/tongtongpic.jpg" 
               alt="Developer 1" 
@@ -53,12 +55,12 @@ const AboutUs = () => {
                 <FaInstagram size={24} />
               </a>
             </div>
-          </div>
+          </SuperEllipse>
         </div>
 
         {/* Developer 2 */}
         <div className='w-full md:w-2/3 p-6 grid place-items-center'>
-          <div className="bg-gray-800 p-6 rounded-lg">
+          <SuperEllipse  p1={10} p2={32} className="bg-gray-800 p-6">
             <img 
               src="/img/aboutuspics/tpic.jpg" 
               alt="Developer 2" 
@@ -77,7 +79,6 @@ const AboutUs = () => {
               <li>Skilled in KiCad circuit board design, Fusion 360 CAD software, and Solidworks CAD software</li>
               <li>Skilled in 3D printing and designing mechanical parts</li>
               <li>Studied and researched on ASIC and FPGA Chip Designing</li>
-              
             </ul>
 
 
@@ -96,7 +97,7 @@ const AboutUs = () => {
                 <FaInstagram size={24} />
               </a>
             </div>
-          </div>
+          </SuperEllipse>
         </div>
       </div>
 

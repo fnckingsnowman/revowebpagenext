@@ -1,8 +1,10 @@
+"use client";
 import React from 'react'
 import MainHeader from './MainHeader'
 import MainFooter from './MainFooter'
 import Carousel from './MainVideoDisplay'
 import AboutUs from './AboutUs'
+import SuperEllipse from 'react-superellipse';
 
 /*
 import demo1 from './img/demovids/1.mp4'
@@ -85,10 +87,10 @@ const MainLayout = ({ children }) => {
           </p>
         </div>
         <div className="w-full md:w-1/2">
-          <img
+        <img
             src="./img/pcb1.png"
             alt="Description of the image"
-            className="h-auto max-w-full object-cover rounded-lg shadow-lg"
+            className="h-auto max-w-full object-cover shadow-lg"
           />
         </div>
       </div>
@@ -110,21 +112,30 @@ const MainLayout = ({ children }) => {
       </div>
 
       <div className="container mx-auto py-10 flex place-content-center image-text-container">
-        <div className="w-full md:w-1/2 p-6 grid place-items-center">
-          <p className="text-lg text-white">
-            <span className="text-3xl font-bold">Magnetic Virtual-Idents</span> 36 Precision-Placed Magnets provide an
-            incremental snap feel, creating a controlled Single Stepping mechanism for the Revolute.
-          </p>
-        </div>
-        <div className="w-full md:w-1/2 p-10">
-          <img
-            src="./img/magstsssicts.png"
-            alt="Description of the image"
-            className="h-auto max-w-full object-cover rounded-lg shadow-lg"
-          />
-        </div>
-      </div>
-       
+  <div className="w-full md:w-1/2 p-6 grid place-items-center">
+    <p className="text-lg text-white">
+      <span className="text-3xl font-bold">Magnetic Virtual-Idents</span> 36 Precision-Placed Magnets provide an
+      incremental snap feel, creating a controlled Single Stepping mechanism for the Revolute.
+    </p>
+  </div>
+  
+  <div className="w-full md:w-1/2 p-10 flex justify-center items-center">
+    <img
+      src="./img/magstsssicts.png"
+      alt="Description of the image"
+      className="h-auto max-w-full object-cover shadow-lg"
+      style={{
+        maskImage: "radial-gradient(ellipse at center, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 70%)",
+        WebkitMaskImage: "radial-gradient(ellipse at center, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0) 75%)",
+        backdropFilter: "blur(10px)", // Adjust blur intensity as needed
+      }}
+    />
+  </div>
+</div>
+
+
+
+
       <div className="container mx-auto py-40 flex flex-col items-center">
     <div className="text-center mb-20 p-10">
         <div className="text-lg text-white">
