@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaBook, FaInstagram } from 'react-ico
 const MainHeader = () => {
   return (
     <nav className="fixed top-0 z-10 w-full flex items-start h-24 bg-gradient-to-b from-black/50 to-transparent backdrop-blur-lg backdrop-brightness-75 group">
-      <a href="https://tongtonginc.com/" className="p-6 text-4xl font-bold font-prof-bens">Tongtong.inc</a>
+      <a href="https://tongtonginc.com/" className="p-6 text-4xl font-bold font-prof-bens tan-color">Tongtong.inc</a>
 
       {/* Icons Section */}
       <div className="py-6 ml-8 flex space-x-10 opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-500 ease-in-out">
