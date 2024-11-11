@@ -32,7 +32,7 @@ const MainLayout = ({ children }) => {
         </video>
       </div>
 
-      <div className="container mx-auto py-10 flex place-content-center image-text-container">
+      <div className="container mx-auto py-10 flex place-content-center image-text-container ">
         <div className="w-full md:w-1/2">
           <img
             src="./img/swdemo1.png"

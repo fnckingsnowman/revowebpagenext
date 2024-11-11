@@ -2,7 +2,7 @@ import React from 'react'
 
 const MainFooter = () => {
   return (
-        <footer class="bg-gray-800 text-white p-10">
+        <footer class="pro-grey text-white p-10">
         <div class="flex justify-between">
           <p class="text-sm">
             <title1 class="text-3xl">Pricing</title1><br />

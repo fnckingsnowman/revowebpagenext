@@ -1,7 +1,5 @@
 # To do list
-- add assigned color scheme
 - organize components
-- create the conic components/styles into hte css thing so that i can use it for the things in the website thing fuck
 - add dynamic resolution for loading and rendering shit
 
 

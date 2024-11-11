@@ -8,7 +8,7 @@ const AboutUs = () => {
     <div>
         
       <div className="text-center mb-10">
-        <span className="text-4xl font-bold text-white"> Our Dev Team</span>
+        <span className="text-4xl font-bold text-white"> Our Developers</span>
         <br />
         <div className="text-lg text-gray-400 px-10 pt-5">
           We're just two high schoolers from Shanghai that's soon to be headed for college in the United States in 2025.
@@ -18,13 +18,13 @@ const AboutUs = () => {
       <div className="container mx-auto flex place-content-center image-text-container">
         {/* Developer 1 */}
         <div className='w-full md:w-2/3 p-6 grid place-items-center'>
-          <SuperEllipse p1={10} p2={32} className="bg-gray-800 p-6">
+          <SuperEllipse p1={10} p2={32} className="pro-grey p-6">
             <img 
               src="/img/aboutuspics/tongtongpic.jpg" 
               alt="Developer 1" 
               className="w-40 h-40 rounded-full mx-auto mb-4"
             />
-            <h3 className="text-xl font-semibold text-white">
+            <h3 className="text-2xl font-semibold tan-color">
                     Tongtong Wang 
                     <span className="text-gray-400 text-sm ml-2">(basement gremlin) jesus/christ</span>
             </h3>
@@ -60,13 +60,13 @@ const AboutUs = () => {
 
         {/* Developer 2 */}
         <div className='w-full md:w-2/3 p-6 grid place-items-center'>
-          <SuperEllipse  p1={10} p2={32} className="bg-gray-800 p-6">
+          <SuperEllipse  p1={10} p2={32} className="pro-grey p-6">
             <img 
               src="/img/aboutuspics/tpic.jpg" 
               alt="Developer 2" 
               className="w-40 h-40 rounded-full mx-auto mb-4"
             />
-            <h3 className="text-xl font-semibold text-white">
+            <h3 className="text-2xl font-semibold tan-color">
                     T Zhong
                     <span className="text-gray-400 text-sm ml-2">(alcoholic snowman) fuck/me</span>
             </h3>
