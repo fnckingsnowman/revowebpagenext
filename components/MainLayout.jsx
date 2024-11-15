@@ -23,7 +23,7 @@ const slides = [
 
 const MainLayout = ({ children }) => {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <MainHeader />
       <div className="max-h-fit-content min-h-screen grid place-items-center">
         <video autoPlay loop muted playsInline className="w-3/4 h-3/4">

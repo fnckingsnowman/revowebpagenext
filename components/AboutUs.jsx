@@ -70,7 +70,7 @@ const AboutUs = () => {
                     T Zhong
                     <span className="text-gray-400 text-sm ml-2">(alcoholic snowman) fuck/me</span>
             </h3>
-            <p className="text-gray-400">Product/Project Manager, web Frontend developer, electronics and mechanical engineer, campaign manager/organizer, advertizing director, Windows software developer</p>
+            <p className="text-gray-400">Product/Project Manager, web Frontend developer, electronics and mechanical engineer, campaign manager/organizer, advertizing director, Windows application software developer</p>
             <ul className="list-disc list-inside text-gray-200 mt-4 space-y-2">
               <li>'25 class highschooler studying at Montverde Shanghai Academy (Shanghai Future Technology Highschool)</li>
               <li>Ex Student Athlete in golf turned engineering hobbyist</li>
